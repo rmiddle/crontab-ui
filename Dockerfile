@@ -7,7 +7,7 @@ RUN   mkdir /crontab-ui; touch $CRON_PATH/root; chmod +x $CRON_PATH/root
 
 WORKDIR /crontab-ui
 
-LABEL maintainer "@alseambusher"
+LABEL maintainer "@rmiddle"
 LABEL description "Crontab-UI docker"
 
 RUN   apk --no-cache add \
